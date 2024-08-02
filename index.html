@@ -1,12 +1,103 @@
 <!DOCTYPE html>
-<html lang="UTF-8">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Loja de Bicicletas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Loja de Bicicletas</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Bem-vindo à nossa Loja de Bicicletas!</h2>
+            <p>Encontre a bicicleta perfeita para você.</p>
+        </section>
+
+        <section>
+            <h2>Produtos em Destaque</h2>
+            <div class="product">
+                <img src="bicicleta1.jpg" alt="Bicicleta Modelo 1">
+                <h3>Bicicleta Modelo 1</h3>
+                <p>Descrição breve da bicicleta.</p>
+                <p><strong>R$ 1.200,00</strong></p>
+            </div>
+            <div class="product">
+                <img src="bicicleta2.jpg" alt="Bicicleta Modelo 2">
+                <h3>Bicicleta Modelo 2</h3>
+                <p>Descrição breve da bicicleta.</p>
+                <p><strong>R$ 1.800,00</strong></p>
+            </div>
+            <!-- Adicione mais produtos conforme necessário -->
+        </section>
+
+        <section>
+            <h2>Entre em Contato</h2>
+            <p>Email: contato@lojabicicletas.com.br</p>
+            <p>Telefone: (11) 1234-5678</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Loja de Bicicletas. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
